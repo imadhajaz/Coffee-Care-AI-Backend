@@ -4,3 +4,4 @@ crop/db/chroma.sqlite3 filter=lfs diff=lfs merge=lfs -text
 crop/db/685ad421-ba66-4bcc-9712-65bdc72250ee/index_metadata.pickle filter=lfs diff=lfs merge=lfs -text
 crop/db/685ad421-ba66-4bcc-9712-65bdc72250ee/length.bin filter=lfs diff=lfs merge=lfs -text
 crop/db/685ad421-ba66-4bcc-9712-65bdc72250ee/link_lists.bin filter=lfs diff=lfs merge=lfs -text
+crop/db/e01ca14d-e6c0-4cd9-9efb-d67fffc5afce/index_metadata.pickle filter=lfs diff=lfs merge=lfs -text
