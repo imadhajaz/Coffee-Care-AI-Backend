@@ -1,0 +1,65 @@
+# Ignore macOS system files
+.DS_Store
+__MACOSX/
+
+# Python cache files (globally in the project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories (globally in the project)
+venv/
+.env/
+
+# IDE or editor directories
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Python packages
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+lib/
+lib64/
+pip-wheel-metadata/
+
+# Environment files
+.env
+*.env
+
+# Ignore the pdf folder (and its contents) in the _MACOSX and crop directories
+__MACOSX/pdf/
+crop/pdf/
+
+# Ignore runs folder (and its contents) in the _MACOSX and crop directories
+__MACOSX/runs/
+crop/runs/
+
+# Ignore all database files (globally)
+*.db
+
+# Ignore all temporary or backup files
+*.bak
+*.swp
+*.swo
+
+# Ignore specific directories and files in _MACOSX and crop
+__MACOSX/__pycache__/
+crop/__pycache__/
+
+# Ignore any other unwanted files in these directories
+__MACOSX/*.log
+crop/*.log
+
+# Ignore documentation and reports if needed
+__MACOSX/docs/
+crop/docs/
